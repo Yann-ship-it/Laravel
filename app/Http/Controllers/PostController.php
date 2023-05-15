@@ -22,6 +22,10 @@ class PostController extends Controller
         ]);
     }
 
+    public function create() {
+        return view ('form');
+    }
+
     public function store(Request $request) {
 
         Post::create([
@@ -33,9 +37,6 @@ class PostController extends Controller
 
     }
 
-    public function create() {
-        return view ('form');
-    }
     public function contact() {
         return view ('contact');
     }

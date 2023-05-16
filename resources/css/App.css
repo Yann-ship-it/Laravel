@@ -13,4 +13,14 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
+.postCom {
+  background: rgba(198, 198, 198, 0.1019607843);
+  margin: 0;
+  padding: 1vh;
+}
+.postCom .send {
+  font-style: italic;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=App.css.map */

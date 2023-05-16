@@ -17,8 +17,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('posts', [PostController::class, 'index'])->name('posts');
 Route::post('/posts/create', [PostController::class, 'store'])->name('posts.store');
-Route::get('/post/create}', [PostController::class, 'create'])->name('posts.create');
+Route::get('/post/create', [PostController::class, 'create'])->name('posts.create');
 Route::get('/post/{id}', [PostController::class, 'show'])->name('posts.show');
 Route::get('/contact', [PostController::class, 'contact'])->name('contact');
+
+Route::get('/create-poly', [PostController::class, 'register']);
 
 Route::get('/', [Controller::class, 'index']);

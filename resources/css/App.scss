@@ -13,3 +13,13 @@ a {
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+.postCom {
+    background: #c6c6c61a;
+    margin: 0;
+    padding: 1vh;
+    .send {
+        font-style: italic;
+        font-size: 1rem;
+    }
+}
